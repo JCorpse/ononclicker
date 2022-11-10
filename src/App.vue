@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <OnonClicker/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OnonClicker from './components/OnonClicker.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OnonClicker
   }
 }
 </script>
