@@ -11,7 +11,9 @@ export default {
   name: 'App',
   components: {
     OnonClicker
-  }
+  },mounted () {
+    document.body.classList.add('container-fluid')
+  },
 }
 </script>
 
