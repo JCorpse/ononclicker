@@ -42,13 +42,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-ononclicker {
-  height: 100%;
+.ononclicker {
   width: 100%;
+  padding: 30px 0;
 }
 
-h1 {
-  margin: 40px 0 0;
+img {
+  width: 100%;
+  height: 100%;
 }
 
 ul {
@@ -58,7 +59,7 @@ ul {
 
 li {
   display: inline-block;
-  margin: 0 10px;
+  padding: 0 10px;
 }
 
 a {
