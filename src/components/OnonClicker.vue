@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import on from "../assets/sound/on.mp3"
-import ssb from "../assets/sound/ssb.mp3"
+import on from "../assets/media/on.mp3"
+import ssb from "../assets/media/ssb.mp3"
 
 
 export default {
