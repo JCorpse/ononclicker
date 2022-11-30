@@ -1,19 +1,16 @@
-<template class="container-fluid">
-  <OnonClicker class="container-fluid"/>
+<template>
+  <OnonClicker/>
 </template>
 
 <script>
 import OnonClicker from './components/OnonClicker.vue'
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 export default {
   name: 'App',
   components: {
     OnonClicker
-  },mounted () {
-    document.body.classList.add('container-fluid')
-  },
+  }
 }
 </script>
 
@@ -25,5 +22,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  height: 100%;
+  width: 100%;
 }
 </style>

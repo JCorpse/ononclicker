@@ -1,8 +1,8 @@
 <template>
-  <div class="container-fluid">
+  <div class="ononclicker">
     <h1>onon-clicker</h1>
     <img src="../assets/img/ononbag.gif" @click=onon()>
-<!--    <span>{{ sound }}</span>-->
+    <!--    <span>{{ sound }}</span>-->
     <!--    <audio id="on" hidden="hidden" src="../assets/music/on.mp3"></audio>-->
     <!--    <audio id="ssb" hidden="hidden" src=../assets/music/ssb.mp3></audio>-->
     <audio hidden="hidden" controls id="player">
@@ -27,9 +27,9 @@ export default {
   },
   methods: {
     onon() {
-      if(Math.round(Math.random()*100)<=3){
+      if (Math.round(Math.random() * 100) <= 3) {
         this.sound = this.ssb;
-      }else {
+      } else {
         this.sound = this.on;
       }
       let player = document.getElementById("player");
@@ -42,6 +42,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+ononclicker {
+  height: 100%;
+  width: 100%;
+}
+
 h1 {
   margin: 40px 0 0;
 }
