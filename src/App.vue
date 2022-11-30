@@ -1,9 +1,11 @@
-<template>
-  <OnonClicker/>
+<template class="container-fluid">
+  <OnonClicker class="container-fluid"/>
 </template>
 
 <script>
 import OnonClicker from './components/OnonClicker.vue'
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 export default {
   name: 'App',

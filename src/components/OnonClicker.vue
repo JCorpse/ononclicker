@@ -1,5 +1,5 @@
 <template>
-  <div class="ononclicker">
+  <div class="container-fluid">
     <h1>onon-clicker</h1>
     <img src="../assets/img/ononbag.gif" @click=onon()>
 <!--    <span>{{ sound }}</span>-->
